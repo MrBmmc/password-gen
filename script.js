@@ -90,8 +90,8 @@ function generatePassword() {
     var password = [];
 
     for (var i = 0; i < enter; i++) {
-        var pickChoices = choices[Math.floor(Math.random() * choices.length)];
-        password.push(pickChoices);
+        var select = choices[Math.floor(Math.random() * choices.length)];
+        password.push(select);
     }
 
     var button = password.join("");
